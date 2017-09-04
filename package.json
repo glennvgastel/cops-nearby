@@ -1,0 +1,32 @@
+{
+  "name": "cops-nearby",
+  "version": "1.0.0",
+  "description": "Tells if there's nearby police reported in Waze by given coordinates and range",
+  "main": "index.js",
+  "dependencies": {
+    "geolib": "^2.0.23",
+    "geopoint": "^1.0.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanibrus/cops-nearby.git"
+  },
+  "keywords": [
+    "police",
+    "cops",
+    "waze",
+    "radar",
+    "detect"
+  ],
+  "author": "Alan Ibrus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanibrus/cops-nearby/issues"
+  },
+  "homepage": "https://github.com/alanibrus/cops-nearby#readme"
+}
