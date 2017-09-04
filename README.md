@@ -10,7 +10,10 @@ npm install cops-nearby
 Usage
 -----
 ```javascript
-CopsNearby({ latitude: [latitude coords], longitude: [longitude coords] }, [rangeInKilometers]).then((data) => {
+CopsNearby({ 
+   latitude: [latitude coords], 
+   longitude: [longitude coords] 
+}, [rangeInKilometers]).then((data) => {
    console.log(data);
 });
 ```
@@ -18,7 +21,10 @@ Example
 -----
 ```javascript
 const CopsNearby = require('cops-nearby');
-CopsNearby({ latitude: 59.447186, longitude: 24.7283923 }, 15).then(console.log);
+CopsNearby({ 
+   latitude: 59.447186, 
+   longitude: 24.7283923 
+}, 15).then(console.log);
 /*
 [ { position: { latitude: 59.438113, longitude: 24.734423 },
     city: 'Tallinn',
