@@ -1,6 +1,6 @@
 {
   "name": "cops-nearby",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tells if there's nearby police reported in Waze by given coordinates and range",
   "main": "index.js",
   "dependencies": {
