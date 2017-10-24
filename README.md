@@ -17,8 +17,10 @@ CopsNearby({
    console.log(data);
 });
 ```
+
 Example
 -----
+![Runkit Example](https://screenshots.firefoxusercontent.com/images/ab4293f5-9ef5-4405-8a44-6178309d1f7c.png)
 ```javascript
 const CopsNearby = require('cops-nearby');
 CopsNearby({ 
